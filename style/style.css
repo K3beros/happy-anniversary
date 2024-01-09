@@ -18,8 +18,16 @@ body {
 }
 
 .container div.six {
-  top: 10vh;
+  top: 1vh;
   z-index: 1;
+  height: 50vh;
+}
+
+.lydia-dp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .container div.seven,
@@ -125,9 +133,10 @@ body {
 .six .hat {
   position: absolute;
   width: 80px;
-  top: -35px;
+  top: -10px;
   left: 41.5%;
-  /* transform: scale(0.1); */
+  transform: scale(1);
+  transform: rotate(-20deg); 
 }
 
 .baloons img {
@@ -211,9 +220,10 @@ body {
 }
 
 .wish-hbd {
-  font-size: 3em;
-  margin: 0;
+  font-size: 1.5em;
+  margin: auto;
   text-transform: uppercase;
+  color: #e41818;
 }
 
 .wish h5 {
@@ -224,6 +234,10 @@ body {
 
 .nine p {
   font-size: 2rem;
+  font-weight: lighter;
+}
+.wish-text {
+  font-size: 1rem;
   font-weight: lighter;
 }
 
